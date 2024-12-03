@@ -1,0 +1,28 @@
+main {
+padding: 0.3rem;
+}
+
+header {
+    background-size: 100vw;
+    height: 300px;
+}
+
+main section#corps {
+    display: flex;
+    flex-flow: column nowrap;
+    padding-top: 0;
+}
+
+main section#corps aside#category ul {
+    display: grid;
+    grid-template: auto / repeat(4, 1fr) ;
+}
+
+main section#corps aside#category ul li {
+    border-bottom: none;
+    border-right: var(--background-color) solid 1px;
+}
+
+main section#corps div#consultes {
+    margin-top: 2rem;
+}

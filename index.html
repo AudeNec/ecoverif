@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/color-jour.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css" media="screen and (max-width: 1000px)">
+    <title>Label - Décryptage | EcoVérif</title>
+</head>
+<body>
+    <nav>
+        <img id="logo" src="./src/logo.png" alt="EcoVérif" width="70px">
+        <ul id="navbar">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">L'association EcoVérif</a></li>
+        </ul>
+    </nav>
+    <header id="banner">
+        <h1>Il est bien ce label ?</h1>
+    </header>
+    <main>
+        <section id="made-by">
+            <p>
+                Un outil proposé par
+            </p>
+            <img id="logo" src="./src/logo.png" alt="EcoVérif" width="70px">
+            <a href="./index_nuit.html"><img src="./src/nuit.png" width="40px"></a>
+        </section>
+        <section id="intro">
+            <h2>
+                On vous aide à faire le point
+            </h2>
+            <p>
+                Les labels se multiplient dans notre quotidien : B corp, Oeko tex, Made in France, .... Certains sont des certifications contraignantes, avec des actions concrètes derrière, quand d’autres sont des promesses sans engagements voire des pirouettes marketing.
+            </p>
+            <p>
+                Notre équipe de bénévoles répertorie et décrypte tout ça pour vous !
+            </p>
+        </section>
+        <section id="search">
+            <button type="button">
+                <img src="./src/icons8-chercher-48 (1).png" width="30px" alt="Rechercher">
+            </button>
+            <form>
+                <input type="text" name="search" id="search" value="Rechercher un label">
+            </form>
+        </section>
+        <section id="corps">
+            <aside id="category">
+                <ul>
+                    <li><a href="#">Tissus et habillements</a></li>
+                    <li><a href="#">Nourriture</a></li>
+                    <li><a href="#">Informatique & électroménager</a></li>
+                    <li><a href="#">Habitat</a></li>
+                </ul>
+            </aside>
+            <div id="consultes">
+                <h3>
+                    Les plus consultés
+                </h3>
+                <article class="card">
+                    <img class="label-img" src="./src/b-corp.png">
+                    <h4>
+                        B Corporation
+                    </h4>
+                    <div class="contrainte">
+                        <label for="lvl-bcorp">Niveau de contraintes</label>
+                        <progress id="lvl-bcorp" class="lvl-contrainte" max="10" value="7">
+                            7/10
+                        </progress>
+                    </div>
+                    <p>
+                        B Corp est une certification qui concerne la démarche globale d’une entreprise sur les questions sociales et environnementales.
+                        <br>
+                        Elle ne labellise donc pas un produit en particulier, mais l’engagement et les efforts d’une marque. En plus de critères stricts sur les pratiques de l’entreprise, la question porte avant tout sur sa raison d’être et sa mission. Cherche-t-elle à avoir un impact positif et à être, non pas la meilleure entreprise du monde mais la meilleure entreprise pour le monde ?
+                    </p>
+                </article>
+                <article class="card">
+                    <img class="label-img" src="./src/fairtrade-max-havelaar-logo.png">
+                    <h4>
+                        Max Havelaar
+                    </h4>
+                    <div class="contrainte">
+                        <label for="lvl-havelaar">Niveau de contraintes</label>
+                        <progress id="lvl-havelaar" class="lvl-contrainte" max="10" value="9">
+                        7/10
+                        </progress>
+                    </div>
+                    <p>
+                        Il certifie que les matières premières ont été cultivées et récoltées dans les règles du commerce équitable : matières premières cultivées et ramassées par une exploitation familiale, respect des conventions de l’Organisation internationale du Travail, prix minimum garanti aux producteurs, prime de développement, absence de cultures OGM (mais pas des pesticides !).
+                    </p>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul id="navfooter">
+            <li><a href="#">Découvrez l'association et notre équipe</a></li>
+            <li><a href="#">Sources</a></li>
+            <li><a href="#">CGU et Mentions Légales</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

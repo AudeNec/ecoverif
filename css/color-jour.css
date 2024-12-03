@@ -1,0 +1,17 @@
+:root{
+    --primary-color: #654F6F;
+    --primary-dark: #14281D;
+    --light-color: #F4DBD8;
+    --background-color: #F4DBD8;
+}
+
+header h1 {
+    font-family: 'Francois One';
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--background-color);
+    background-color: #1C1630A5;
+    padding: 1rem;
+    width: 100vw;
+    text-align: center;
+}
